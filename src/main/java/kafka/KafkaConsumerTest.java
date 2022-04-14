@@ -20,7 +20,7 @@ import org.apache.kafka.common.serialization.StringDeserializer;
  */
 public class KafkaConsumerTest {
     //默认 test-consumer-group
-    private static final String GROUPID = "test1";
+    private static final String GROUPID = "test2";
 
 
 
