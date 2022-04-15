@@ -9,8 +9,8 @@ import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 import org.apache.flink.util.Collector;
 
 import java.util.Arrays;
-
-public class BorderStream {
+//有边界到流处理模式
+public class DealType_stream_haveBorder {
     public static void main(String[] args) throws Exception {
         // 1. 创建流式执行环境
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();

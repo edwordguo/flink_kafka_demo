@@ -9,8 +9,8 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.Socket;
 import java.nio.charset.StandardCharsets;
-
-public class Custom_mySource {
+//自定义数据源
+public class Src_custom_mySource {
 
     public static void main(String[] args) throws Exception {
 
@@ -34,7 +34,7 @@ public class Custom_mySource {
             this.port = port;
         }
 
-
+//???sourcecontext  socket以及自定义数据源中实现到接口SourceFuntion 中的collect方法含义再查
         @Override
         public void run(SourceContext<WaterSensor> ctx) throws Exception {
             // 实现一个从socket读取数据的source

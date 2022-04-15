@@ -9,8 +9,8 @@ import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 import org.apache.flink.util.Collector;
 
 import java.util.Arrays;
-
-public class noborderStream {
+//无边界流处理
+public class DealType_stream_noBorder {
     public static void main(String[] args) throws Exception {
 
 
